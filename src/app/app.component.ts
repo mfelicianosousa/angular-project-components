@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'project-components';
+  cardPlanType  = 'Simples';
+  cardPlanPeriod = 'Mensal';
+  cardPlanPrice = 100;
+  
+  handlePlanType(text: string){
+    this.cardPlanType = text;
+  }
+
+  handlePlanPeriod(text: string){
+    this.cardPlanPeriod = text;
+  }
 }

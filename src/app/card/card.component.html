@@ -1,0 +1,6 @@
+<div class="card">
+    <div class="card__plan card__item">Plano <b>{{ planType }}</b></div>
+    <div class="card__period card__item">Período <b>{{ planPeriod }}</b></div>
+    <div class="card__price card__item">R${{ planPrice }},00/Mês</div>
+    <app-card-button (buttonChildClick)="onButtonFatherClick($event)" buttonDisabled></app-card-button>
+</div>

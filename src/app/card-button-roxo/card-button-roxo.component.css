@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@100;400;600;800&family=Roboto+Mono:wght@100&display=swap');
+
+.card-button-roxo {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: rgb(142, 8, 199);
+    cursor:pointer;
+    font-weight: bold;
+    padding: 10px;
+}
